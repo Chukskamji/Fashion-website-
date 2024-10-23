@@ -1,0 +1,243 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+ body{background-color: whitesmoke;
+   font-family: sans-serif;
+ }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  align-items: center;
+  padding: 0% 100px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.headerIcons {
+  display: flex;
+  gap: 30px;
+}
+
+/* ......................................Hero Section................................  */
+
+main {
+  display: flex;
+  background-color: whitesmoke;
+  height: 85vh;
+}
+
+.heroBg {
+  /* background-image: url("./images/landing.png");
+  background-size: cover;
+  background-position: center; */
+  width: 50%;
+}
+
+.heroBg img {
+  height: 100%;
+  width: 100%;
+}
+
+.heroText {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.heroText h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.heroText span {
+  font-size: 20px;
+}
+
+.heroText button {
+  background-color: rgb(20, 19, 19);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.discover{
+  border-left: 3px solid red;
+  margin:  10vh 20vw;
+  padding-left: 20px;
+
+}
+
+/*.............d woman man pictures.......*/
+.dis{
+  display: flex;
+    height: 100vh;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 25px;
+}
+
+.column{display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;gap: 10px;
+}
+.women{background-image: url(./images/woman.png);
+  background-size: contain;
+  flex: 2;
+  background-position: center;
+  background-repeat: no-repeat;   
+  box-shadow: 1px 1px 1px 1px grey;
+  background-color: white;
+}
+.men{background-image: url(./images/man.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  box-shadow: 1px 1px 1px 1px gray;
+  width: 30vw;height: 40vh;
+  background-color: white;
+  padding: 20px;
+}
+.shoe{background-image: url(./images/shoes.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  box-shadow: 1px 1px 1px 1px gray;
+  width: 30vw;
+  background-color: white;
+  padding: 20px;
+  
+}
+.label{align-items: center;
+  justify-content: center;
+}
+.label {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+  margin: 100px 10px;
+  text-align: center;
+}
+.label:hover{background-color: black;
+  color: white;
+}
+.label span{font-size: 0.6em;}
+#label{margin: 150px 10px;}
+
+.dis h2{padding: 10px;}
+
+.product {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 25px;
+  padding-right: -10px
+}
+
+.product div {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+
+.product img{
+  width: 35vw; height: 50vh;
+  background-color: white;
+}
+p i{color: gold;}
+
+
+.most-rated {
+    font-size: 30px; /* Adjust as needed */
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.most-rated::after {
+    content: "";
+    width: 70px; /* Adjust the width of the underline */
+    height: 5px; /* Adjust the thickness of the underline */
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px; /* Adjust distance from the text */
+}
+
+.rated{align-self: center;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 20px;
+  gap:3vw  ;
+  
+}
+.rated img{width: 33vw;height: 50vh;
+  background-color: white;
+}
+.rated div{width: 33vw;}
+.summer{background-color: grey;
+  display: flex;
+  width: 100vw;
+  padding: 0px 100px 0px 25px;
+}
+.heroText{display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  margin-top: 100px
+}
+
+.heroText h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.heroText span {
+  font-size: 20px;
+}
+
+.heroText button {
+  background-color: rgb(20, 19, 19);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+}
+.summer img{width: 40vw;
+  height: fit-content;
+  margin: 25px 25px 0px 25px;
+}#424040
+footer{display: flex;}
+.promo,.contact,.quicklink{display: flex;
+  flex-direction: column;
+}
+input{padding: 3px 5px;}
